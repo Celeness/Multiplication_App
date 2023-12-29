@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font style start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <!-- Font style end -->
+  <link rel="stylesheet" href="style.css">
+  <title>Multiplication App</title>
+</head>
+
+<body>
+  <div class="container">
+    <h3 class="score">Score: 0</h3>
+    <h1 class="question"></h1>
+    <input class="input" type="text" onkeypress="return isNumberKey(event)" placeholder="Enter Your Answer"
+      autocomplete="off">
+    <button class="btn" type="submit">Submit</button>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="multi.js" charset="UTF-8"></script>
+</body>
+
+</html>
